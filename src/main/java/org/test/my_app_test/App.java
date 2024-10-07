@@ -32,7 +32,7 @@ public class App
 
         driver.getTitle();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(500));
+        driver.manage().timeouts().implicitlyWait(Duration.ofMillis(2000));
 
         WebElement email = driver.findElement(By.name("email"));
         WebElement password = driver.findElement(By.name("pass"));
